@@ -1,0 +1,21 @@
+<!---function to make the first column th instead of td when using markdown tables..just add .row-header as your class below the table!---->
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        // Select only tables with the 'row-header' class
+        const tables = document.querySelectorAll('table.row-header');
+        
+        tables.forEach(table => {
+            const rows = table.querySelectorAll('tr');
+            
+            rows.forEach(row => {
+                const firstCell = row.cells[0];
+                if (firstCell && firstCell.tagName === 'TD') {
+                    const th = document.createElement('th');
+                    th.innerHTML = firstCell.innerHTML;
+                    th.setAttribute('scope', 'row'); // Add scope="row" to the th element
+                    row.replaceChild(th, firstCell);
+                }
+            });
+        });
+    });
+</script>
