@@ -22,8 +22,6 @@ img.sidebar-logo {
 
 $link-color:    rgb(13, 110, 253); /*defines link colors */
 
-
-
 /*-----------------------------HEADERS---------------------------------------------- */
 
 h2, .h2 {
@@ -210,6 +208,14 @@ h5.quarto-listing-category-title::before {
   #TOC {
       display: none; /* Hidden on small screens */
   }
+    svg {
+      width: 100%; /* Adjust width for very small screens */
+    }
+}
+
+svg {
+  max-width: 100%; /* Prevent it from exceeding the container */
+  min-width: 200px; /* Minimum size on small screens */
 }
 
 /*-----------------------------LISTS---------------------------------------------- */
