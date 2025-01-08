@@ -715,6 +715,11 @@ div.panel-tabset > .tab-content h4 {
   margin-top: 1rem !important;
 }
 
+/* REMOVE ADVERTISEMENT COOKIES NOTICE */
+#title_targeting, #title_targeting:has(li) {
+  display: none;
+}
+
 /*------------------------------------CUSTOM PER COURSE---------------------------------------*/
 
 
