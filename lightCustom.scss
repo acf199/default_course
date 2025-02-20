@@ -1,4 +1,4 @@
-/*-- scss:defaults --*/
+/*-- scss:defaults -- TESTING A CHANGE TO A COMMENTS AND SYNC-ING!*/
 
 @import "_sasStyles.scss";
 
@@ -171,7 +171,7 @@ h5.quarto-listing-category-title::before {
       color: #0a53be !important;
       font-weight: bolder !important;
     }
-  
+
 }
 
 .sidebar-toc-nested a:active > .header-section-number> * > *{
@@ -233,7 +233,7 @@ ol li {
   max-width: 100%; /* Set a maximum width for the container */
   overflow-x: auto; /* Enable horizontal scrolling when the content overflows */
 }
- 
+
  /*table-sm row height adjust*/
 $table-cell-padding-y-sm:     .05rem;
 $table-cell-padding-x-sm:     .45rem;
@@ -278,7 +278,7 @@ $callout-color-note: #f4f8fc !default; /* defines the light blue callout color *
     font-size: 1rem !important;
     font-weight: 400;
 }
-  
+
 /*callout title sizes*/
 .callout.callout-style-simple>div.callout-header {
     border-bottom: none;
@@ -334,7 +334,7 @@ $callout-color-note: #f4f8fc !default; /* defines the light blue callout color *
   p {
     margin-left: 1em !important;
   }
-  
+
 }
 
 /*---------------------------------EXAMPLES----------------------------------------------*/
@@ -391,21 +391,21 @@ $callout-color-note: #f4f8fc !default; /* defines the light blue callout color *
     border-bottom: none!important;
     text-align: left !important;
   }
-  
+
   .table td:first-child {
     text-align: left !important;
     border-bottom: none!important;
   }
-  
+
   .table th.special-th {
   text-align: right !important;
   }
-  
+
   thead, th, .header {
     border-bottom: 1.3px solid black !important;
     border-top: none !important;
   }
-  
+
   table  {
     caption-side: bottom !important;
     border-bottom: none !important;
@@ -415,7 +415,7 @@ $callout-color-note: #f4f8fc !default; /* defines the light blue callout color *
     width: auto !important;
     font-size: 0.875em !important;
   }
-  
+
   table colgroup {
     border-top: none !important;
     border-bottom: none !important;
@@ -522,7 +522,7 @@ $callout-color-note: #f4f8fc !default; /* defines the light blue callout color *
     margin-left: 1em !important;
     color: purple !important;
     word-break: normal;
-    
+
 }
 
 .cell-output>pre code {
@@ -531,7 +531,7 @@ $callout-color-note: #f4f8fc !default; /* defines the light blue callout color *
     margin-left: 1em !important;
     color: purple !important;
     word-break: normal;
-    
+
 }
 
 /*make text output from R wrap*/
@@ -591,7 +591,7 @@ div.sourceCode {
     font-size: calc(1rem + .28vw) !important;
     color: rgb(13, 110, 253) !important;
 }
- 
+
 .accordion-button {
     font-size: 1.1rem !important;
     padding-bottom: 1rem !important;
@@ -653,7 +653,7 @@ button.btn:not(.collapsed):not(.quarto-btn-toggle):not(button.quarto-search-butt
     --bs-nav-tabs-link-hover-border-color: #0a58ca #0a58ca #0a58ca !important;
     --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff !important; /*make top of active tab green*/
     --bs-nav-tabs-link-disabled-color: #dee2e6 !important;
-    
+
 }
 
 .panel-tabset > .nav {
@@ -666,7 +666,7 @@ button.btn:not(.collapsed):not(.quarto-btn-toggle):not(button.quarto-search-butt
 .panel-tabset > .nav li:hover {
     font-weight: bold; /* Make it bold on hover */
     background-color: #E5E4E2;/* ... color background on hover ... */
-    
+
 }
 
 .panel-tabset > .nav-tabs .nav-link:not(.active) {
@@ -705,8 +705,8 @@ div.panel-tabset > ul > li  {
 }
 
 /*removes extra space above headers inside panel content */
-div.panel-tabset > .tab-content h3:not(.minitab_output *), .h3:not(.minitab_output *), 
-div.panel-tabset > .tab-content h4 { 
+div.panel-tabset > .tab-content h3:not(.minitab_output *), .h3:not(.minitab_output *),
+div.panel-tabset > .tab-content h4 {
   margin-top: 1rem !important;
 }
 
